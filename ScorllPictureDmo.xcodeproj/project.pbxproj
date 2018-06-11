@@ -15,6 +15,8 @@
 		FA4EED9420B57FA000C44A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EED9320B57FA000C44A6B /* main.m */; };
 		FA4EED9E20B57FA100C44A6B /* ScorllPictureDmoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EED9D20B57FA100C44A6B /* ScorllPictureDmoTests.m */; };
 		FA4EEDA920B57FA100C44A6B /* ScorllPictureDmoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEDA820B57FA100C44A6B /* ScorllPictureDmoUITests.m */; };
+		FA4EEDB820B57FC200C44A6B /* LCYScorllPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEDB720B57FC200C44A6B /* LCYScorllPictureView.m */; };
+		FA4EEDBF20B660D400C44A6B /* NSTimer+NSDataTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEDBE20B660D400C44A6B /* NSTimer+NSDataTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FA4EEDA420B57FA100C44A6B /* ScorllPictureDmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScorllPictureDmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4EEDA820B57FA100C44A6B /* ScorllPictureDmoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScorllPictureDmoUITests.m; sourceTree = "<group>"; };
 		FA4EEDAA20B57FA100C44A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4EEDB620B57FC200C44A6B /* LCYScorllPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYScorllPictureView.h; sourceTree = "<group>"; };
+		FA4EEDB720B57FC200C44A6B /* LCYScorllPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYScorllPictureView.m; sourceTree = "<group>"; };
+		FA4EEDBD20B660D400C44A6B /* NSTimer+NSDataTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NSDataTimer.h"; sourceTree = "<group>"; };
+		FA4EEDBE20B660D400C44A6B /* NSTimer+NSDataTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NSDataTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				FA4EED8F20B57FA000C44A6B /* LaunchScreen.storyboard */,
 				FA4EED9220B57FA000C44A6B /* Info.plist */,
 				FA4EED9320B57FA000C44A6B /* main.m */,
+				FA4EEDB620B57FC200C44A6B /* LCYScorllPictureView.h */,
+				FA4EEDB720B57FC200C44A6B /* LCYScorllPictureView.m */,
+				FA4EEDBD20B660D400C44A6B /* NSTimer+NSDataTimer.h */,
+				FA4EEDBE20B660D400C44A6B /* NSTimer+NSDataTimer.m */,
 			);
 			path = ScorllPictureDmo;
 			sourceTree = "<group>";
@@ -267,7 +277,9 @@
 			files = (
 				FA4EED8920B57FA000C44A6B /* ViewController.m in Sources */,
 				FA4EED9420B57FA000C44A6B /* main.m in Sources */,
+				FA4EEDBF20B660D400C44A6B /* NSTimer+NSDataTimer.m in Sources */,
 				FA4EED8620B57FA000C44A6B /* AppDelegate.m in Sources */,
+				FA4EEDB820B57FC200C44A6B /* LCYScorllPictureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EN49MUBLA;
 				INFOPLIST_FILE = ScorllPictureDmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.ScorllPictureDmo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EN49MUBLA;
 				INFOPLIST_FILE = ScorllPictureDmo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changba.ScorllPictureDmo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
